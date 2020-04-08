@@ -1,19 +1,18 @@
 ---
 layout: post
-title: Hello World!
-slug: typography
-date: 2019-12-18 16:50
+title: 欢迎来到ZigZagK's Wiki
+slug: zigzagkwiki
+date: 2020-4-8 12:27
 status: publish
-author: AlanDecode
+author: ZigZagK
 categories: 
-  - Maverick
+  - 其他
 tags:
-  - Design
-  - Typography
+  - Wiki
 excerpt: 这是一篇示例文章，在这里你可以看到常用页面元素的显示效果。
 ---
 
-[notice]这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！[/notice]
+[notice]这是一篇示例文章，在这里你可以看到常用页面元素的显示效果。[/notice]
 
 ## L2 Heading
 
@@ -110,7 +109,7 @@ cell 3 | cell 4
 ## Link Card
 
 [links]
-[AlanDecode](https://www.imalan.cn)+(https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&r=G&d=)
+[AlanDecode](https://zigzagk.top)+(https://gravatar.loli.net/avatar/828dd77feb4c4a650e43cf622cd74232?s=200)
 [/links]
 
 
