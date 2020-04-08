@@ -89,7 +89,7 @@ $$C_{m\times k}=A_{m\times n}\cdot B_{n\times k}$$
 
 [photos]
 ![](./images/zigzagkwiki/IMG_0073.jpeg)
-![][1]
+![](./images/zigzagkwiki/1463017562.jpg)
 ![](./images/zigzagkwiki/IMG_0053.jpeg)
 [/photos]
 
@@ -111,6 +111,3 @@ cell 3 | cell 4
 [links]
 [ZigZagK](https://zigzagk.top)+(https://gravatar.loli.net/avatar/828dd77feb4c4a650e43cf622cd74232?s=200)
 [/links]
-
-
-[1]: ./zigzagkwiki/images/1463017562.jpg
