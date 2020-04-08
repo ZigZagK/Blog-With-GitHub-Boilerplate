@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>ZigZagK's Wiki</title><updated>2020-04-08T04:33:52.287237+08:06</updated><author><name>ZigZagK</name><email>zigzagk@qq.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/ZigZagK.png</logo><subtitle>Never give up fighting!</subtitle><entry><id>/archives/zigzagkwiki/</id><title>欢迎来到ZigZagK's Wiki</title><updated>2020-04-08T04:33:52.287301+00:00</updated><author><name>ZigZagK</name><email>zigzagk@qq.com</email><uri>https://zigzagk.top</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果。&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>ZigZagK's Wiki</title><updated>2020-04-08T04:43:38.158543+08:06</updated><author><name>ZigZagK</name><email>zigzagk@qq.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/ZigZagK.png</logo><subtitle>Never give up fighting!</subtitle><entry><id>/archives/zigzagkwiki/</id><title>欢迎来到ZigZagK's Wiki</title><updated>2020-04-08T04:43:38.158592+00:00</updated><author><name>ZigZagK</name><email>zigzagk@qq.com</email><uri>https://zigzagk.top</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果。&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -8,7 +8,7 @@
 &lt;p&gt;We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth.&lt;/p&gt;
 &lt;p&gt;We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity.&lt;/p&gt;
 &lt;h2&gt;Inline elements&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt;, &lt;ruby&gt;Ruby&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;ルビ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;, &lt;em&gt;Italic&lt;/em&gt;, &lt;del&gt;Strikethrough&lt;/del&gt;, &lt;a href="https://www.imalan.cn"&gt;Link&lt;/a&gt;&lt;sup id="fn_ref_1"&gt;&lt;a href="#fn_1"&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt;, &lt;ruby&gt;Ruby&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;ルビ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;, &lt;em&gt;Italic&lt;/em&gt;, &lt;del&gt;Strikethrough&lt;/del&gt;, &lt;a href="https://zigzagk.top"&gt;Link&lt;/a&gt;&lt;sup id="fn_ref_1"&gt;&lt;a href="#fn_1"&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
 &lt;h2&gt;Blockquote and nested blockquote&lt;/h2&gt;
 &lt;blockquote&gt;&lt;p&gt;安得广厦千万间，大庇天下寒士俱欢颜！风雨不动安如山。&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;呜呼！何时眼前突兀见此屋，吾庐独破受冻死亦足！&lt;/p&gt;
@@ -50,15 +50,15 @@
 &lt;p&gt;$$C_{m\times k}=A_{m\times n}\cdot B_{n\times k}$$&lt;/p&gt;
 &lt;h2&gt;Figures&lt;/h2&gt;
 &lt;h3&gt;Single figure&lt;/h3&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img data-width="836" data-height="450" src="/archives/assets/e0affbc80ccb2d596c87b520e37e7071.jpg" alt="Princess Mononoke" /&gt;&lt;figcaption&gt;Princess Mononoke&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="-1" data-height="-1" src="./zigzagkwiki/images/Mononoke_Hime.jpg" alt="Princess Mononoke" /&gt;&lt;figcaption&gt;Princess Mononoke&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3&gt;Photoset&lt;/h3&gt;
 &lt;div class="photos"&gt;
-&lt;figure&gt;&lt;img data-width="4032" data-height="2688" src="/archives/assets/4956a144888cdbbb6c2df1d1d15384b0.jpeg" alt="" /&gt;&lt;/figure&gt;
-&lt;figure&gt;&lt;img data-width="2690" data-height="2688" src="/archives/assets/4c66f0da616b08325b3aaa4c8b3f68e1.jpg" alt="" /&gt;&lt;/figure&gt;
-&lt;figure&gt;&lt;img data-width="4032" data-height="2688" src="/archives/assets/8b4d2334469ffa39b59e6fdb37c8c601.jpeg" alt="" /&gt;&lt;/figure&gt;&lt;/div&gt;&lt;div class="photos"&gt;
-&lt;figure&gt;&lt;img data-width="4032" data-height="2688" src="/archives/assets/0f5023d542a33e7c9d270f3cd6a99562.jpeg" alt="" /&gt;&lt;/figure&gt;
-&lt;figure&gt;&lt;img data-width="4032" data-height="2688" src="/archives/assets/20ec69d2a0276336f95e11f42866d17f.jpeg" alt="" /&gt;&lt;/figure&gt;
-&lt;figure&gt;&lt;img data-width="4032" data-height="2688" src="/archives/assets/2b8af25285e5a193729a350593113bad.jpeg" alt="" /&gt;&lt;/figure&gt;&lt;/div&gt;&lt;h2&gt;Table&lt;/h2&gt;
+&lt;figure&gt;&lt;img data-width="-1" data-height="-1" src="./zigzagkwiki/images/IMG_0073.jpeg" alt="" /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img data-width="-1" data-height="-1" src="./zigzagkwiki/images/1463017562.jpg" alt="" /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img data-width="-1" data-height="-1" src="./zigzagkwiki/images/IMG_0053.jpeg" alt="" /&gt;&lt;/figure&gt;&lt;/div&gt;&lt;div class="photos"&gt;
+&lt;figure&gt;&lt;img data-width="-1" data-height="-1" src="./zigzagkwiki/images/IMG_0039.jpeg" alt="" /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img data-width="-1" data-height="-1" src="./zigzagkwiki/images/IMG_00510.jpeg" alt="" /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img data-width="-1" data-height="-1" src="./zigzagkwiki/images/IMG_0005.jpeg" alt="" /&gt;&lt;/figure&gt;&lt;/div&gt;&lt;h2&gt;Table&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;&lt;tr&gt;
 &lt;th&gt;header&lt;/th&gt;
@@ -78,4 +78,4 @@
 &lt;/table&gt;
 &lt;h2&gt;Link Card&lt;/h2&gt;
 &lt;div class="links"&gt;
-&lt;a style="display:block" target="_blank" href="https://zigzagk.top" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://gravatar.loli.net/avatar/828dd77feb4c4a650e43cf622cd74232?s=200"&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/archives/zigzagkwiki/" rel="alternate"/><published>2020-04-08T12:27:00+08:06</published></entry></feed>
+&lt;a style="display:block" target="_blank" href="https://zigzagk.top" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://gravatar.loli.net/avatar/828dd77feb4c4a650e43cf622cd74232?s=200"&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;ZigZagK&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;ZigZagK的博客 &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/archives/zigzagkwiki/" rel="alternate"/><published>2020-04-08T12:27:00+08:06</published></entry></feed>
