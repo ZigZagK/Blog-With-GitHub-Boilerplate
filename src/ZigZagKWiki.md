@@ -32,7 +32,7 @@ We are creating a world where anyone, anywhere may express his or her beliefs, n
 
 ## Inline elements
 
-**Bold**, {{Ruby:ルビ}}, *Italic*, ~~Strikethrough~~, [Link](https://www.imalan.cn)[^Home page for AlanDecode]。
+**Bold**, {{Ruby:ルビ}}, *Italic*, ~~Strikethrough~~, [Link](https://zigzagk.top)[^ZigZagK的博客]。
 
 ## Blockquote and nested blockquote
 
@@ -83,20 +83,20 @@ $$C_{m\times k}=A_{m\times n}\cdot B_{n\times k}$$
 
 ### Single figure
 
-![Princess Mononoke](./images/Mononoke_Hime.jpg)
+![Princess Mononoke](./zigzagkwiki/images/Mononoke_Hime.jpg)
 
 ### Photoset
 
 [photos]
-![](./images/IMG_0073.jpeg)
+![](./zigzagkwiki/images/IMG_0073.jpeg)
 ![][1]
-![](./images/IMG_0053.jpeg)
+![](./zigzagkwiki/images/IMG_0053.jpeg)
 [/photos]
 
 [photos]
-![](./images/IMG_0039.jpeg)
-![](./images/IMG_00510.jpeg)
-![](./images/IMG_0005.jpeg)
+![](./zigzagkwiki/images/IMG_0039.jpeg)
+![](./zigzagkwiki/images/IMG_00510.jpeg)
+![](./zigzagkwiki/images/IMG_0005.jpeg)
 [/photos]
 
 ## Table
@@ -109,8 +109,8 @@ cell 3 | cell 4
 ## Link Card
 
 [links]
-[AlanDecode](https://zigzagk.top)+(https://gravatar.loli.net/avatar/828dd77feb4c4a650e43cf622cd74232?s=200)
+[ZigZagK](https://zigzagk.top)+(https://gravatar.loli.net/avatar/828dd77feb4c4a650e43cf622cd74232?s=200)
 [/links]
 
 
-[1]: ./images/1463017562.jpg
+[1]: ./zigzagkwiki/images/1463017562.jpg
