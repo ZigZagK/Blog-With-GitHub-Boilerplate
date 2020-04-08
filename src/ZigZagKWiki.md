@@ -83,20 +83,20 @@ $$C_{m\times k}=A_{m\times n}\cdot B_{n\times k}$$
 
 ### Single figure
 
-![Princess Mononoke](./zigzagkwiki/images/Mononoke_Hime.jpg)
+![Princess Mononoke](./images/zigzagkwiki/Mononoke_Hime.jpg)
 
 ### Photoset
 
 [photos]
-![](./zigzagkwiki/images/IMG_0073.jpeg)
+![](./images/zigzagkwiki/IMG_0073.jpeg)
 ![][1]
-![](./zigzagkwiki/images/IMG_0053.jpeg)
+![](./images/zigzagkwiki/IMG_0053.jpeg)
 [/photos]
 
 [photos]
-![](./zigzagkwiki/images/IMG_0039.jpeg)
-![](./zigzagkwiki/images/IMG_00510.jpeg)
-![](./zigzagkwiki/images/IMG_0005.jpeg)
+![](./images/zigzagkwiki/IMG_0039.jpeg)
+![](./images/zigzagkwiki/IMG_00510.jpeg)
+![](./images/zigzagkwiki/IMG_0005.jpeg)
 [/photos]
 
 ## Table
