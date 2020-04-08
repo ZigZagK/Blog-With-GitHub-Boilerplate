@@ -14,8 +14,8 @@ template = {
     "path": "../Kepler"
 }
 enable_jsdelivr = {
-    "enabled": False,
-    "repo": ""
+    "enabled": True,
+    "repo": "https://github.com/ZigZagK/Wiki@gh-pages"
 }
 
 # 站点设置
