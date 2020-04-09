@@ -19,7 +19,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/f951dd43281c3d2f0a13bfbd9ba22df4.json"
+            api: "https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/35332ead86bfc170c153f0f686291b04.json"
         }
     </script>
     <script>
@@ -34,16 +34,16 @@
     
 <title>关于 - ZigZagK's Wiki</title>
 <meta name="author" content="ZigZagK" />
-<meta name="description" content="这里是ZigZagK’s Wiki，会记录一些不适合在博客里写的笔记。" />
+<meta name="description" content="这里是ZigZagK's Wiki，会记录一些不适合在博客里写的笔记。" />
 <meta property="og:title" content="关于 - ZigZagK's Wiki" />
-<meta property="og:description" content="这里是ZigZagK’s Wiki，会记录一些不适合在博客里写的笔记。" />
+<meta property="og:description" content="这里是ZigZagK's Wiki，会记录一些不适合在博客里写的笔记。" />
 <meta property="og:site_name" content="ZigZagK's Wiki" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/about/" />
 <meta property="og:image" content="" />
 <meta property="article:published_time" content="2020-04-08T12:19:00-00.00" />
 <meta name="twitter:title" content="关于 - ZigZagK's Wiki" />
-<meta name="twitter:description" content="这里是ZigZagK’s Wiki，会记录一些不适合在博客里写的笔记。" />
+<meta name="twitter:description" content="这里是ZigZagK's Wiki，会记录一些不适合在博客里写的笔记。" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="" />
 
@@ -124,7 +124,7 @@
                 
             </span>
         </p>
-        <article class="yue"><p>这里是ZigZagK’s Wiki，会记录一些不适合在博客里写的笔记。</p>
+        <article class="yue"><p>这里是ZigZagK's Wiki，会记录一些不适合在博客里写的笔记。</p>
 <p>Powered by <a href="https://github.com/AlanDecode/Maverick">Maverick</a> | Theme by <a href="https://github.com/AlanDecode/Maverick-Theme-Kepler">Kepler</a></p>
 <p>由衷感谢<a href="https://www.imalan.cn/">熊猫小A</a>提供的博客生成器和Wiki主题 😀 。</p>
 </article>
@@ -182,23 +182,20 @@
         <!--ExSearch-->
         <script src="https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/assets/ExSearch/ExSearch-493cb9cd89.js"></script>
         
-        <!--MathJax-->
-        <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({
-                elements:["pjax-container"],
-                showProcessingMessages:false,
-                messageStyle:"none",
-                extensions:["tex2jax.js"],
-                jax:["input/TeX","output/HTML-CSS"],
-                tex2jax:{
-                    inlineMath:[["$","$"],["\\(","\\)"]],
-                    displayMath:[["$$","$$"],["\\[","\\]"]],
-                    processEscapes:true
-                },
-                "HTML-CSS":{availableFonts:["TeX"]}
-            });
+        <!--katex-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/assets/katex.min.css">
+        <script defer src="https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/assets/katex.min.js"></script>
+        <script>
+        mathOpts = {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "\\[", right: "\\]", display: true},
+                {left: "$", right: "$", display: false},
+                {left: "\\(", right: "\\)", display: false}
+            ]
+        };
         </script>
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/assets/auto-render.min.js" onload="renderMathInElement(document.body, mathOpts);"></script>
 
         
     </body>
