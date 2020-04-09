@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>ZigZagK's Wiki</title><updated>2020-04-09T00:34:01.941801+08:06</updated><author><name>ZigZagK</name><email>zigzagk@qq.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/ZigZagK.png</logo><subtitle>Never give up fighting!</subtitle><entry><id>/archives/zigzagkwiki/</id><title>欢迎来到ZigZagK's Wiki！</title><updated>2020-04-09T00:34:01.941876+00:00</updated><author><name>ZigZagK</name><email>zigzagk@qq.com</email><uri>https://zigzagk.top</uri></author><content>&lt;p&gt;欢迎来到ZigZagK's Wiki！&lt;del&gt;（其实这只是个测试页面）&lt;/del&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>ZigZagK's Wiki</title><updated>2020-04-09T00:51:50.742815+08:06</updated><author><name>ZigZagK</name><email>zigzagk@qq.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/ZigZagK.png</logo><subtitle>Never give up fighting!</subtitle><entry><id>/archives/zigzagkwiki/</id><title>欢迎来到ZigZagK's Wiki！</title><updated>2020-04-09T00:51:50.742870+00:00</updated><author><name>ZigZagK</name><email>zigzagk@qq.com</email><uri>https://zigzagk.top</uri></author><content>&lt;p&gt;欢迎来到ZigZagK's Wiki！&lt;del&gt;（其实这只是个测试页面）&lt;/del&gt;&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;是时候丢弃CSDN了。——By Lynstery&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;$\KaTeX$ :我们来求个 $LIS$ 吧 $f(i)=max\{f(j)|j&lt;i,a_j&lt;a_i\}+1$
+&lt;p&gt;$\LaTeX$ :我们来求个 $LIS$ 吧 $f(i)=max\{f(j)|j&amp;lt;i,a_j&amp;lt;a_i\}+1$
 $$
 \begin{aligned}
 \dot{x}&amp;amp;=\sigma(y-x)\
