@@ -273,6 +273,5 @@ def Markdown(content):
     block = MyBlockLexer()
     block.enable_autotag()
     block.enable_dplayer()  # should be before autotag
-    block.enable_math()
 
     return MyMarkdown(renderer=ren, block=block, inline=inline)(content.text)
