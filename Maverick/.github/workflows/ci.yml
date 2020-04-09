@@ -18,6 +18,10 @@ jobs:
       with:
         python-version: 3.5
 
+    - name: Install pandoc
+      run: |
+        apt install pandoc -y
+
     - name: Install dependencies
       run: |
         make dep
