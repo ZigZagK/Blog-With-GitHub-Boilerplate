@@ -1,7 +1,0 @@
-[submodule "Maverick"]
-	path = Maverick
-	url = https://github.com/AlanDecode/Maverick.git
-[submodule "Kepler"]
-	path = Kepler
-	url = https://github.com/AlanDecode/Maverick-Theme-Kepler.git
-	branch = latest
