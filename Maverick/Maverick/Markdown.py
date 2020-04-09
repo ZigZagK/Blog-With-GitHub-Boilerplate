@@ -4,6 +4,7 @@
 
 import os
 import re
+import cgi
 from .Cache import cache_img
 import mistune
 from pygments import highlight
@@ -163,13 +164,13 @@ class MathInlineMixin(object):
 
 class MathRendererMixin(object):
     def block_math(self, text):
-        return '$$%s$$' % text
+        return '$$%s$$' % cgi.escape(text)
 
     def block_latex(self, name, text):
-        return r'\begin{%s}%s\end{%s}' % (name, text, name)
+        return r'\begin{%s}%s\end{%s}' % (name, cgi.escape(text), name)
 
     def math(self, text):
-        return '$%s$' % text
+        return '$%s$' % cgi.escape(text)
 
 
 class MyMarkdown(mistune.Markdown):

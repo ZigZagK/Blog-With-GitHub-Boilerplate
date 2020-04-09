@@ -16,7 +16,7 @@ excerpt: 这是一篇示例文章，在这里你可以看到常用页面元素�
 
 > 是时候丢弃CSDN了。——By Lynstery
 
-$\KaTeX$ :我们来求个 $LIS$ 吧 $f(i)=max\{f(j)|j<i,a_j<a_i\}+1$
+$\LaTeX$ :我们来求个 $LIS$ 吧 $f(i)=max\{f(j)|j<i,a_j<a_i\}+1$
 $$
 \begin{aligned}
 \dot{x}&=\sigma(y-x)\\
