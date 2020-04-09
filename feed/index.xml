@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZigZagK's Wiki</title><link>/</link><description>Never give up fighting!</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/ZigZagK.png</url><title>ZigZagK's Wiki</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Thu, 09 Apr 2020 01:06:00 +0806</lastBuildDate><pubDate>Thu, 09 Apr 2020 01:06:00 +0806</pubDate><item><title>欢迎来到ZigZagK's Wiki！</title><link>/archives/zigzagkwiki/</link><description>&lt;p&gt;欢迎来到ZigZagK's Wiki！&lt;del&gt;（其实这只是个测试页面）&lt;/del&gt;&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZigZagK's Wiki</title><link>/</link><description>Never give up fighting!</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/ZigZagK.png</url><title>ZigZagK's Wiki</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Thu, 09 Apr 2020 01:30:55 +0806</lastBuildDate><pubDate>Thu, 09 Apr 2020 01:30:55 +0806</pubDate><item><title>欢迎来到ZigZagK's Wiki！</title><link>/archives/zigzagkwiki/</link><description>&lt;p&gt;欢迎来到ZigZagK's Wiki！&lt;del&gt;（其实这只是个测试页面）&lt;/del&gt;&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;是时候丢弃CSDN了。——By Lynstery&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;$\LaTeX$ :我们来求个 $LIS$ 吧 $f(i)=max\{f(j)|j&amp;lt;i,a_j&amp;lt;a_i\}+1$
+&lt;p&gt;$\\LaTeX$ :我们来求个 $LIS$ 吧 $f(i)=max\\{f(j)|j&amp;lt;i,a_j&amp;lt;a_i\\}+1$
 $$
 \begin{aligned}
 \dot{x}&amp;amp;=\sigma(y-x)\
@@ -22,13 +22,13 @@ $$&lt;/p&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;ZigZagK&lt;/td&gt;
-&lt;td&gt;$-\infty$&lt;/td&gt;
-&lt;td&gt;$-\infty$&lt;/td&gt;
+&lt;td&gt;$-\\infty$&lt;/td&gt;
+&lt;td&gt;$-\\infty$&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Lynstery&lt;/td&gt;
-&lt;td&gt;$+\infty$&lt;/td&gt;
-&lt;td&gt;$+\infty$&lt;/td&gt;
+&lt;td&gt;$+\\infty$&lt;/td&gt;
+&lt;td&gt;$+\\infty$&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
