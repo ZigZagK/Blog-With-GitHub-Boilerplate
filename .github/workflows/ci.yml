@@ -22,6 +22,10 @@ jobs:
       with:
         python-version: 3.7
 
+    - name: Install pandoc
+      run: |
+        dpkg -i pandoc.deb
+
     - name: Install dependencies
       run: |
         cd ./Maverick
