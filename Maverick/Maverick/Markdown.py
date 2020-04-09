@@ -163,13 +163,13 @@ class MathInlineMixin(object):
 
 class MathRendererMixin(object):
     def block_math(self, text):
-        return '$$%s$$' % mistune.escape(text.replace('\\','\\\\'))
+        return '$$%s$$' % text
 
     def block_latex(self, name, text):
-        return r'\begin{%s}%s\end{%s}' % (name, mistune.escape(text.replace('\\','\\\\')), name)
+        return r'\begin{%s}%s\end{%s}' % (name, text, name)
 
     def math(self, text):
-        return '$%s$' % mistune.escape(text.replace('\\','\\\\'))
+        return '$%s$' % text
 
 
 class MyMarkdown(mistune.Markdown):
