@@ -1,38 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZigZagK's Wiki</title><link>/</link><description>Never give up fighting!</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/ZigZagK.png</url><title>ZigZagK's Wiki</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Thu, 09 Apr 2020 01:50:13 +0806</lastBuildDate><pubDate>Thu, 09 Apr 2020 01:50:13 +0806</pubDate><item><title>欢迎来到ZigZagK's Wiki！</title><link>/archives/zigzagkwiki/</link><description>&lt;p&gt;欢迎来到ZigZagK's Wiki！&lt;del&gt;（其实这只是个测试页面）&lt;/del&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;是时候丢弃CSDN了。——By Lynstery&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZigZagK's Wiki</title><link>/</link><description>Never give up fighting!</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/ZigZagK.png</url><title>ZigZagK's Wiki</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Thu, 09 Apr 2020 03:13:48 +0806</lastBuildDate><pubDate>Thu, 09 Apr 2020 03:13:48 +0806</pubDate><item><title>欢迎来到ZigZagK's Wiki！</title><link>/archives/zigzagkwiki/</link><description>&lt;p&gt;欢迎来到ZigZagK’s Wiki！&lt;del&gt;（其实这只是个测试页面）&lt;/del&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;是时候丢弃CSDN了。——By Lynstery&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;$\LaTeX$ :我们来求个 $LIS$ 吧 $f(i)=max\{f(j)|j&lt;i,a_j&lt;a_i\}+1$
-$$
+&lt;p&gt;&lt;span class="math inline"&gt;\(\LaTeX\)&lt;/span&gt; :我们来求个 &lt;span class="math inline"&gt;\(LIS\)&lt;/span&gt; 吧 &lt;span class="math inline"&gt;\(f(i)=max\{f(j)|j&amp;lt;i,a_j&amp;lt;a_i\}+1\)&lt;/span&gt; &lt;span class="math display"&gt;\[
 \begin{aligned}
-\dot{x}&amp;amp;=\sigma(y-x)\
-\dot{y}&amp;amp;=\rho x-y-xz\
+\dot{x}&amp;amp;=\sigma(y-x)\\
+\dot{y}&amp;amp;=\rho x-y-xz\\
 \dot{z}&amp;amp;=-\beta z+xy
 \end{aligned}
-$$&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+\]&lt;/span&gt;&lt;/p&gt;
+&lt;div class="sourceCode" id="cb1"&gt;&lt;pre class="sourceCode cpp"&gt;&lt;code class="sourceCode cpp"&gt;&lt;span id="cb1-1"&gt;&lt;a href="#cb1-1"&gt;&lt;/a&gt;&lt;span class="dt"&gt;int&lt;/span&gt; main() {&lt;span class="cf"&gt;return&lt;/span&gt; &lt;span class="dv"&gt;0&lt;/span&gt;;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;table&gt;
-&lt;thead&gt;&lt;tr&gt;
+&lt;thead&gt;
+&lt;tr class="header"&gt;
 &lt;th&gt;人名&lt;/th&gt;
 &lt;th&gt;OI水平&lt;/th&gt;
 &lt;th&gt;文化课水平&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
-&lt;tr&gt;
+&lt;tr class="odd"&gt;
 &lt;td&gt;ZigZagK&lt;/td&gt;
-&lt;td&gt;$-\infty$&lt;/td&gt;
-&lt;td&gt;$-\infty$&lt;/td&gt;
+&lt;td&gt;&lt;span class="math inline"&gt;\(-\infty\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class="math inline"&gt;\(-\infty\)&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;
+&lt;tr class="even"&gt;
 &lt;td&gt;Lynstery&lt;/td&gt;
-&lt;td&gt;$+\infty$&lt;/td&gt;
-&lt;td&gt;$+\infty$&lt;/td&gt;
+&lt;td&gt;&lt;span class="math inline"&gt;\(+\infty\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class="math inline"&gt;\(+\infty\)&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;a href="http://blog.csdn.net/zzkksunboy"&gt;这是我CSDN的博客链接。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;我的头像:&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img data-width="425" data-height="425" src="https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/archives/assets/50f7c102d76576a85404664e85d43f91.png" alt="Header" /&gt;&lt;figcaption&gt;Header&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src="ZigZagKWiki.assets/176242131.png" alt="" /&gt;&lt;figcaption&gt;Header&lt;/figcaption&gt;
+&lt;/figure&gt;
 </description><author>zigzagk@qq.com (ZigZagK)</author><guid isPermaLink="true">/archives/zigzagkwiki/</guid><pubDate>Wed, 08 Apr 2020 12:27:00 +0806</pubDate></item></channel></rss>
