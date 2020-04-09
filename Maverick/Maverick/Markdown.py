@@ -4,7 +4,6 @@
 
 import os
 import re
-import pypandoc
 from .Cache import cache_img
 import mistune
 from pygments import highlight
@@ -262,7 +261,6 @@ class MyInlineLexer(mistune.InlineLexer, RubyLexer, LinkcardLexer, InlineFootnot
 
 
 def Markdown(content):
-    return pypandoc.convert_text(content.text, 'html', format='markdown+tex_math_dollars', extra_args=['--mathjax'])
     ren = MyRenderer(escape=False, md_path=content.get_meta("path"))
 
     inline = MyInlineLexer(ren)
