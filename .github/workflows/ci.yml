@@ -24,7 +24,7 @@ jobs:
 
     - name: Install pandoc
       run: |
-        dpkg -i pandoc.deb
+        sudo dpkg -i pandoc.deb
 
     - name: Install dependencies
       run: |
