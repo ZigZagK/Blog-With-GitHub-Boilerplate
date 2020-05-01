@@ -4,6 +4,7 @@ $ $
 """
 
 import re
+import mistune
 
 INLINEMATH_PATTERN = (
     r'\$(.+?)\$'
@@ -13,7 +14,7 @@ INLINEMATH_PATTERN = (
 def parse_mathinline(self, m, state):
     match = re.match(INLINEMATH_PATTERN, m.group(0))
     text = match.group(1)
-    return 'mathinline', text
+    return 'mathinline', mistune.escape(text)
 
 
 def render_html_mathinline(text):

@@ -4,6 +4,7 @@ $$ $$
 """
 
 import re
+import mistune
 
 BLOCKMATH_PATTERN = (
     r'\$\$([\s\S]+?)\$\$'
@@ -13,7 +14,7 @@ BLOCKMATH_PATTERN = (
 def parse_mathblock(self, m, state):
     match = re.match(BLOCKMATH_PATTERN, m.group(0))
     text = match.group(1)
-    return 'mathblock', text
+    return 'mathblock', mistune.escape(text)
 
 
 def render_html_mathblock(text):
