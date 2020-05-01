@@ -32,7 +32,7 @@ def Markdown(content):
         escape=False, md_path=content.get_meta("path"), g_hooks=g_hooks)
     markdown = mistune.Markdown(renderer, plugins=[
         plugin_table, plugin_footnotes, plugin_strikethrough, plugin_url,
-        plugin_autotag, plugin_mathblock, plugin_mathblock
+        plugin_autotag, plugin_mathblock, plugin_mathblock,
         plugin_linkcard, plugin_ruby, plugin_inlinefootnote
     ])
     return markdown(content.text)
