@@ -12,6 +12,7 @@ import mistune
 from .ruby import plugin_ruby
 from .autotag import plugin_autotag
 from .blockmath import plugin_mathblock
+from .inlinemath import plugin_mathinline
 from .linkcard import plugin_linkcard
 from .inline_footnote import plugin_inlinefootnote
 from .image import ImageRenderer
