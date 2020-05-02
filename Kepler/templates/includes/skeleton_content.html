@@ -19,6 +19,9 @@
 <meta name="twitter:description" content="{{ content.excerpt }}" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="{{ content.get_meta('banner') }}" />
+{% if config.Artalk['enable'] and content.get_meta('comment') %}
+<link rel="stylesheet" href="{{ Router.gen_static_file_prefix() }}assets/Artalk.css">
+{% endif %}
 {% endblock head %}
 
 {% block bodyclass %}content{% endblock %}
@@ -79,7 +82,9 @@
 
     {% if config.Artalk['enable'] and content.get_meta('comment') %}
         <script src="{{ Router.gen_static_file_prefix() }}assets/Artalk.js"></script>
-        <div id="acomments" style="padding-bottom:.5em"></div>
+        <section id="comments">
+            <div id="acomments" style="padding-bottom:.5em"></div>
+        </section>
         <script>
             new Artalk({
                 el: '{{ config.Artalk["el"] }}',
