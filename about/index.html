@@ -134,6 +134,25 @@
 
     
 
+    
+        <script src="https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/assets/Artalk.js"></script>
+        <div id="acomments" style="padding-bottom:.5em"></div>
+        <script>
+            new Artalk({
+                el: '#acomments',
+                placeholder: '欢迎指出文章的不足或错误QAQ',
+                noComment: '快来成为第一个评论的人吧QwQ',
+                defaultAvatar: 'mp',
+                pageKey: 'about',
+                serverUrl: 'https://artalk.zigzagk.top/index.php',
+                readMore: {
+                    pageSize: '15',
+                    autoLoad: 'true'
+                }
+            });
+        </script>
+    
+
     <script>
         document.body.classList.add('content');
         document.body.classList.remove('archive');
