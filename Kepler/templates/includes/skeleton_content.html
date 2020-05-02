@@ -77,6 +77,25 @@
         </script>
     {% endif %}
 
+    {% if config.Artalk['enable'] and content.get_meta('comment') %}
+        <script src="{{ Router.gen_static_file_prefix() }}assets/Artalk.js"></script>
+        <div id="acomments" style="padding-bottom:.5em"></div>
+        <script>
+            new Artalk({
+                el: '{{ config.Artalk["el"] }}',
+                placeholder: '{{ config.Artalk["placeholder"] }}',
+                noComment: '{{ config.Artalk["noComment"] }}',
+                defaultAvatar: '{{ config.Artalk["defaultAvatar"] }}',
+                pageKey: '{{ content.get_meta("slug") }}',
+                serverUrl: '{{ config.Artalk["serverUrl"] }}',
+                readMore: {
+                    pageSize: '{{ config.Artalk["readMore"]["pageSize"] }}',
+                    autoLoad: '{{ config.Artalk["readMore"]["autoLoad"] }}'
+                }
+            });
+        </script>
+    {% endif %}
+
     <script>
         document.body.classList.add('content');
         document.body.classList.remove('archive');

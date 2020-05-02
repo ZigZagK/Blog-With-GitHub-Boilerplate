@@ -66,6 +66,19 @@ social_links = [
     }
 ]
 
+Artalk = {
+    "enable": True,
+    "el": '#acomments',
+    "placeholder": '欢迎指出文章的不足或错误QAQ',
+    "noComment": '快来成为第一个评论的人吧QwQ',
+    "defaultAvatar": 'mp',
+    "serverUrl": 'https://artalk.zigzagk.top/index.php',
+    "readMore": {
+        "pageSize": 15,
+        "autoLoad": 'true'
+    }
+}
+
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
