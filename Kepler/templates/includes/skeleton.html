@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+    {% if config.Artalk['enable'] %}
+    <link rel="stylesheet" href="{{ Router.gen_static_file_prefix() }}assets/Artalk-1.0.6.css">
+    {% endif %}
     <script>
         var ExSearchConfig = {
             root: "",
@@ -126,6 +129,11 @@
                 }
             </script>
             <script async src='https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js' onload="initValine()"></script>
+        {% endif %}
+
+        <!--Artalk-->
+        {% if config.Artalk['enable'] %}
+        <script src="{{ Router.gen_static_file_prefix() }}assets/Artalk-1.0.6.js"></script>
         {% endif %}
 
         <!--ExSearch-->

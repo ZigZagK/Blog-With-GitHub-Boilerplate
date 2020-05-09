@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="{{ content.get_meta('banner') }}" />
 {% if config.Artalk['enable'] and content.get_meta('comment') %}
-<link rel="stylesheet" href="{{ Router.gen_static_file_prefix() }}assets/Artalk.css">
+<link rel="stylesheet" href="{{ Router.gen_static_file_prefix() }}assets/Artalk-1.0.6.css">
 {% endif %}
 {% endblock head %}
 
@@ -81,7 +81,7 @@
     {% endif %}
 
     {% if config.Artalk['enable'] and content.get_meta('comment') %}
-        <script src="{{ Router.gen_static_file_prefix() }}assets/Artalk.js"></script>
+        <script src="{{ Router.gen_static_file_prefix() }}assets/Artalk-1.0.6.js"></script>
         <section id="comments">
             <div id="acomments" style="padding-bottom:.5em"></div>
         </section>
