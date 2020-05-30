@@ -35,18 +35,18 @@
         });
     </script>
     
-<title>欢迎来到ZigZagK's Wiki！ - ZigZagK's Wiki</title>
+<title>一些PHP奇技淫巧 - ZigZagK's Wiki</title>
 <meta name="author" content="ZigZagK" />
-<meta name="description" content="这是一篇示例文章，在这里你可以看到常用页面元素的显示效果。" />
-<meta property="og:title" content="欢迎来到ZigZagK's Wiki！ - ZigZagK's Wiki" />
-<meta property="og:description" content="这是一篇示例文章，在这里你可以看到常用页面元素的显示效果。" />
+<meta name="description" content="判断PJAX请求" />
+<meta property="og:title" content="一些PHP奇技淫巧 - ZigZagK's Wiki" />
+<meta property="og:description" content="判断PJAX请求" />
 <meta property="og:site_name" content="ZigZagK's Wiki" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/archives/zigzagkwiki/" />
+<meta property="og:url" content="/archives/phptricks/" />
 <meta property="og:image" content="" />
-<meta property="article:published_time" content="2020-04-08T12:27:00-00.00" />
-<meta name="twitter:title" content="欢迎来到ZigZagK's Wiki！ - ZigZagK's Wiki" />
-<meta name="twitter:description" content="这是一篇示例文章，在这里你可以看到常用页面元素的显示效果。" />
+<meta property="article:published_time" content="2020-05-31T00:27:00-00.00" />
+<meta name="twitter:title" content="一些PHP奇技淫巧 - ZigZagK's Wiki" />
+<meta name="twitter:description" content="判断PJAX请求" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="" />
 
@@ -102,7 +102,7 @@
                     
                     <section>
                         
-    <div class=" "><span><a href="/category/实用技巧/">实用技巧</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/phptricks/">一些PHP奇技淫巧</a></li><li class=""><a href="/archives/gitcommands/">一些git命令</a></li></ul></div><div class="open "><span><a href="/category/其他/">其他</a><button class="toggle_sidebar fa"></button></span><ul><li class="current"><a href="/archives/zigzagkwiki/">欢迎来到ZigZagK's Wiki！</a></li></ul></div>
+    <div class="open "><span><a href="/category/实用技巧/">实用技巧</a><button class="toggle_sidebar fa"></button></span><ul><li class="current"><a href="/archives/phptricks/">一些PHP奇技淫巧</a></li><li class=""><a href="/archives/gitcommands/">一些git命令</a></li></ul></div><div class=" "><span><a href="/category/其他/">其他</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/zigzagkwiki/">欢迎来到ZigZagK's Wiki！</a></li></ul></div>
 
                     </section>
                     <section hidden class="sidebar-external-link">
@@ -119,69 +119,33 @@
                 <div id="content-wrapper">
                     <div id="content">
     <section>
-        <h1 class="post-title">欢迎来到ZigZagK's Wiki！</h1>
+        <h1 class="post-title">一些PHP奇技淫巧</h1>
         <p class="post-meta">
-            <time>April 08 2020</time>
+            <time>May 31 2020</time>
             <span class="tags">
                 
                 <span>
-                    <a href="/tag/Wiki/">#Wiki</a>
+                    <a href="/tag/PHP/">#PHP</a>
                 </span>
                 
             </span>
         </p>
-        <article class="yue"><p>欢迎来到ZigZagK's Wiki！<del>（其实这只是个测试页面）</del></p>
-<blockquote>
-<p>是时候丢弃CSDN了。——By Lynstery</p>
-</blockquote>
-<p>$\LaTeX$ :我们来求个 $LIS$ 吧 $f(i)=max\{f(j)|j&lt;i,a_j&lt;a_i\}+1$</p>
-<p><p>$$
-\begin{aligned}
-\dot{x}&amp;=\sigma(y-x)\\
-\dot{y}&amp;=\rho x-y-xz\\
-\dot{z}&amp;=-\beta z+xy
-\end{aligned}
-$$</p>
-</p>
-<div class="highlight"><pre><span></span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span><span class="k">return</span> <span class="mi">0</span><span class="p">;}</span>
+        <article class="yue"><h2>判断PJAX请求</h2>
+<div class="highlight"><pre><span></span><span class="x">if ($_SERVER[&#39;HTTP_X_PJAX&#39;]==&#39;true&#39;) {}</span>
 </pre></div>
-<table>
-<thead>
-<tr>
-  <th>人名</th>
-  <th>OI水平</th>
-  <th>文化课水平</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>ZigZagK</td>
-  <td>$-\infty$</td>
-  <td>$-\infty$</td>
-</tr>
-<tr>
-  <td>Lynstery</td>
-  <td>$+\infty$</td>
-  <td>$+\infty$</td>
-</tr>
-</tbody>
-</table>
-<p><a href="http://blog.csdn.net/zzkksunboy">这是我CSDN的博客链接。</a></p>
-<p>我的头像:</p>
-<p><figure><img data-width="425" data-height="425" src="https://cdn.jsdelivr.net/gh/ZigZagK/Wiki@gh-pages/archives/assets/50f7c102d76576a85404664e85d43f91.png" alt="Header" /><figcaption>Header</figcaption></figure></p>
 </article>
     </section>
 
     
     <section id="content-pager">
         
-            <div class="next">
+        
+            <div class="prev">
                 <a class="card" href="/archives/gitcommands/">
                     <time>May 01 2020</time>
                     <span>一些git命令</span>
                 </a>
             </div>
-        
         
     </section>
     
@@ -199,7 +163,7 @@ $$</p>
                 placeholder: '欢迎指出文章的不足或错误QAQ',
                 noComment: '快来成为第一个评论的人吧QwQ',
                 defaultAvatar: 'mp',
-                pageKey: 'zigzagkwiki',
+                pageKey: 'phptricks',
                 serverUrl: 'https://artalk.zigzagk.top/index.php',
                 readMore: {
                     pageSize: '15',
