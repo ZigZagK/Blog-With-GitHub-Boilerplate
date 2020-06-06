@@ -17,3 +17,9 @@ tags:
 if ($_SERVER['HTTP_X_PJAX']=='true') {}
 ```
 
+## 判断POST请求
+
+```php
+if ($_SERVER['REQUEST_METHOD']=='POST') {}
+```
+
