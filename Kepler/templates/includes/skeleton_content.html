@@ -91,7 +91,7 @@
                 placeholder: '{{ config.Artalk["placeholder"] }}',
                 noComment: '{{ config.Artalk["noComment"] }}',
                 defaultAvatar: '{{ config.Artalk["defaultAvatar"] }}',
-                pageKey: '{{ content.get_meta("slug") }}',
+                pageKey: '{{ Router.gen_permalink_by_content(content) }}',
                 serverUrl: '{{ config.Artalk["serverUrl"] }}',
                 readMore: {
                     pageSize: '{{ config.Artalk["readMore"]["pageSize"] }}',
