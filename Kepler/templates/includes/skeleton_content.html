@@ -91,8 +91,8 @@
                 placeholder: '{{ config.Artalk["placeholder"] }}',
                 noComment: '{{ config.Artalk["noComment"] }}',
                 defaultAvatar: '{{ config.Artalk["defaultAvatar"] }}',
-                pageKey: '{{ Router.gen_permalink_by_content(content) }}',
-                serverUrl: 'https://wiki.zigzagk.top{{ config.Artalk["serverUrl"] }}',
+                pageKey: 'https://wiki.zigzagk.top{{ Router.gen_permalink_by_content(content) }}',
+                serverUrl: '{{ config.Artalk["serverUrl"] }}',
                 readMore: {
                     pageSize: '{{ config.Artalk["readMore"]["pageSize"] }}',
                     autoLoad: '{{ config.Artalk["readMore"]["autoLoad"] }}'
