@@ -13,6 +13,6 @@ tags:
 
 这里是ZigZagK's Wiki，会记录一些不适合在博客里写的笔记。
 
-Powered by [Maverick](https://github.com/AlanDecode/Maverick) | Theme by [Kepler](https://github.com/AlanDecode/Maverick-Theme-Kepler)
+可能有较大一部分信息来源于网络。
 
-由衷感谢[熊猫小A](https://www.imalan.cn/)提供的博客生成器和Wiki主题 😀 。
+Powered by [Maverick](https://github.com/AlanDecode/Maverick) | Theme by [Kepler](https://github.com/AlanDecode/Maverick-Theme-Kepler)
